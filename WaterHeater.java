@@ -23,8 +23,11 @@ public class WaterHeater extends ServiceCall {
         this.age = age;
     }
 
+    //Static final variable for constant mandatory charge
     public static final int MANDATORY_CHARGE = 20;
 
+
+    //Public override for toString method
     @Override
     public String toString() {
 
